@@ -1,5 +1,12 @@
+import Nav from "./components/Nav.tsx";
+import NavBar from "./components/NavBar.tsx";
 function App() {
-  return <div className="text-center"> stuff</div>;
+  return (
+    <>
+      <NavBar />
+      <Nav />
+    </>
+  );
 }
 
 export default App;
