@@ -1,3 +1,4 @@
+import Four from "./components/404.tsx";
 import Hero from "./components/Hero.tsx";
 import NavBar from "./components/NavBar.tsx";
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <NavBar />
       <Hero />
+      <Four />
     </>
   );
 }
