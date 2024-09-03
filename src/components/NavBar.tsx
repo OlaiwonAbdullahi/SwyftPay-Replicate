@@ -1,31 +1,61 @@
-import Logo from "../assets/logo.png";
+import { useState } from "react";
+import logo from "../assets/logo.png";
 
-export default function App() {
+export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div className="flex items-stretch w-auto">
-      <nav className="flex mt-3 flex-row">
-        <div className="basis-1/3">
-          <img src={Logo} alt="logo" className="h-16 items-start"></img>
+    <nav className="bg-white p-4">
+      <div className="flex item-center justify-between">
+        <div className="">
+          <img src={logo} alt="logo" className="h-16 w-24"></img>
         </div>
 
-        <div>
-          <ul className="  flex gap-3 pt-3 mx-auto items-center basis-1/3">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Product</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="items-end basis-1/3">
-          <button className="mr-3 text-slate-900">Sign In</button>
-          <button className="bg-violet-500 text-white h-11 w-28 rounded-md">
-            Sign Up
+        <div className="md:hidden mt-4">
+          <button className="text-gray-500" onClick={toggleMenu}>
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              className="w-6 h-6"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
           </button>
         </div>
-      </nav>
-    </div>
+
+        <ul className="hidden md:flex space-x-4">
+          <li>
+            <a href="#" className="text-slate-900">
+              Product
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-slate-900">
+              Company
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {isOpen ? (
+        <ul className="flex-col md:hidden items-center mx-a ">
+          <li className="py-2">
+            <a href="#" className="text-slate-900">
+              Product
+            </a>
+          </li>
+          <button className="bg-violet-600 text-white rounded-md w-4/5 h-9 ml-14">
+            Get Started
+          </button>
+        </ul>
+      ) : null}
+    </nav>
   );
 }
