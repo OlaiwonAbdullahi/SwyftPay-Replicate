@@ -9,8 +9,10 @@ export default function Hero() {
           </span>
           <p>Available only in 🇳🇬.</p>
         </div>
-        <h2 className="text-5xl">Global Remittance,</h2>
-        <h2 className="text-5xl">Made Easy.</h2>
+        <h2 className="text-4xl text-slate-900 font-extrabold">
+          Global Remittance,
+        </h2>
+        <h2 className="text-4xl text-violet-700 font-extrabold">Made Easy.</h2>
       </div>
       <div className=" flex md:items-end items-center basis-2/3 justify-end">
         <img src={HeroImg}></img>
