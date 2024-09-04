@@ -34,11 +34,11 @@ export default function Footer() {
           <span className="text-sm text-gray-500 font-inter">Terms of use</span>
         </div>
       </div>
-      <div className="socials flex">
-        <img src={LinkedIn} alt="" />
-        <img src={X} alt="" />
-        <img src={Instagram} alt="" />
-        <img src={Facebook} alt="" />
+      <div className="socials flex gap-2">
+        <img src={LinkedIn} alt="" className="h-5 " />
+        <img src={X} alt="" className="h-5 " />
+        <img src={Instagram} alt="" className="h-5 " />
+        <img src={Facebook} alt="" className="h-5 " />
       </div>
     </div>
   );
