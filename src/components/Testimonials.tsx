@@ -6,26 +6,21 @@ export default function Testimonials() {
         Don't just take our word for it, take theirs
       </h2>
       <div className="flex flex-col md:flex-row gap-6 mx-auto justify-center max-w-7xl items-center mt-8">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
+        {data.map((card) => (
+          <Cards card={card} />
+        ))}
       </div>
     </div>
   );
 }
 
-function Cards() {
+function Cards({ card }) {
   return (
-    <div className="border-2 rounded-lg h-auto card w-auto p-6">
-      <p>
-        It finally got swyft at this end Thank you @swyftpay_io for making my X
-        blue payment swift It is the way your Customer Service officer was
-        available to ensure I get the issue resolved
-      </p>
-      <hr></hr>
+    <div className="border-2 rounded-lg h-auto card w-auto p-6 border-gray-800">
+      <p>{card.para}</p>
+      <hr style={{ color: "grey" }}></hr>
       <div className="">
-        <p>@Ara2spicy</p>
+        <p>{card.author}</p>
         <span></span>
       </div>
     </div>
