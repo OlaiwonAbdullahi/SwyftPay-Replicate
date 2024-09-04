@@ -5,11 +5,11 @@ export default function FirstCard() {
       <div className="basis-1/2">
         <img src={Wallet} className="h-full"></img>
       </div>
-      <div className=" md:text-left text-center md:mt-60 ml-9">
-        <h2 className="text-gray-800 text-5xl md:text-6xl font-jost">
+      <div className=" md:text-left text-center md:mt-60 ml-9 basis-1/2">
+        <h2 className="text-gray-800 text-4xl md:text-6xl font-jost">
           Make Transfers &
         </h2>
-        <h2 className="text-violet-600 text-5xl md:text-6xl font-jost mt-5">
+        <h2 className="text-violet-600 text-4xl md:text-6xl font-jost mt-5">
           Bill Payments.
         </h2>
         <p className="text-gray-500 w-96 flex mx-auto md:mx-0 mt-5 font-inter mb-4">
