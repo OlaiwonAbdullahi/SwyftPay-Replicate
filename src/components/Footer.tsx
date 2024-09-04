@@ -35,10 +35,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="socials flex">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img src={LinkedIn} alt="" />
+        <img src={X} alt="" />
+        <img src={Instagram} alt="" />
+        <img src={Facebook} alt="" />
       </div>
     </div>
   );
