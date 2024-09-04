@@ -8,7 +8,7 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="bg-white p-4 sticky top-0">
+    <nav className="bg-white p-4 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50">
       <div className="flex item-center justify-between">
         <div className="">
           <img src={logo} alt="logo" className="h-16 w-24"></img>
@@ -44,9 +44,7 @@ export default function Nav() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <button className="text-slate-900 bg-white font-inter">
-            Sign in
-          </button>
+          <button className="text-slate-900 font-inter">Sign in</button>
           <button className="bg-violet-600 text-white rounded-md w-24 h-9 pb-1 font-inter">
             Sign up
           </button>
