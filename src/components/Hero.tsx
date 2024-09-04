@@ -22,14 +22,16 @@ export default function Hero() {
           Gain financial freedom
         </p>
 
-        <div className=" mt-3 flex md:gap-3 gap-1">
+        <div className=" mt-4 flex md:gap-3 gap-1">
           <button className="p-2 rounded-md border-2 border-gray-800 w-48 h-14 flex gap-3 mx-auto md:mx-0 justify-center">
             <img src={Apple}></img>
-            <span className="mt-1 text-gray-900">Get on iPhone</span>
+            <span className="mt-1 text-gray-900 font-inter">Get on iPhone</span>
           </button>
           <button className="p-2 rounded-md border-2 border-gray-800 w-48 h-14 flex gap-3 mx-auto md:mx-0 justify-center">
             <img src={Play}></img>
-            <span className="mt-1 text-gray-900">Get on Android</span>
+            <span className="mt-1 text-gray-900 font-inter">
+              Get on Android
+            </span>
           </button>
         </div>
       </div>
