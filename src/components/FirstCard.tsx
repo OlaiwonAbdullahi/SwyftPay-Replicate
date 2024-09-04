@@ -3,9 +3,9 @@ export default function FirstCard() {
   return (
     <div className="bg-gray-300 h-auto flex flex-col md:flex-row ">
       <div className="basis-1/2">
-        <img src={Wallet}></img>
+        <img src={Wallet} className="h-full"></img>
       </div>
-      <div className=" md:text-left text-center md:mt-56 ml-9">
+      <div className=" md:text-left text-center md:mt-60 ml-9">
         <h2 className="text-gray-800 text-5xl md:text-6xl font-jost">
           Make Transfers &
         </h2>
