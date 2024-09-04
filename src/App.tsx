@@ -9,8 +9,8 @@ function App() {
       <NavBar />
       <Hero />
       <FirstCard />
-      <Four />
       <SecondCard />
+      <Four />
     </>
   );
 }
