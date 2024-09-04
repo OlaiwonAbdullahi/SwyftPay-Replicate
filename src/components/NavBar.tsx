@@ -32,20 +32,20 @@ export default function Nav() {
 
         <div className="hidden md:flex flex-grow items-center justify-center space-x-4">
           <li className="list-none">
-            <a href="#" className="text-slate-900">
+            <a href="#" className="text-slate-900 font">
               Product
             </a>
           </li>
           <li className="list-none">
-            <a href="#" className="text-slate-900">
+            <a href="#" className="text-slate-900 font">
               Company
             </a>
           </li>
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <button className="text-slate-900 bg-white">Sign in</button>
-          <button className="bg-violet-600 text-white rounded-md w-24 h-9 pb-1">
+          <button className="text-slate-900 bg-white font">Sign in</button>
+          <button className="bg-violet-600 text-white rounded-md w-24 h-9 pb-1 font">
             Sign up
           </button>
         </div>

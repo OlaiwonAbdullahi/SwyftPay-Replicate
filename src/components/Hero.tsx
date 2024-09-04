@@ -9,10 +9,10 @@ export default function Hero() {
           </span>
           <p>Available only in 🇳🇬.</p>
         </div>
-        <h2 className="text-4xl md:text-5xl text-slate-900 font-extrabold mt-3">
+        <h2 className="text-4xl md:text-5xl text-slate-900 font-extrabold mt-3 font-jost">
           Global Remittance,
         </h2>
-        <h2 className="text-4xl md:text-5xl md:pl-4 text-violet-700 font-extrabold mt-3">
+        <h2 className="text-4xl md:text-5xl md:pl-4 text-violet-700 font-extrabold mt-3 font-jost">
           Made Easy.
         </h2>
       </div>
