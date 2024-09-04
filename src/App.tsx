@@ -3,6 +3,7 @@ import FirstCard from "./components/FirstCard.tsx";
 import Hero from "./components/Hero.tsx";
 import NavBar from "./components/NavBar.tsx";
 import SecondCard from "./components/SecondCard.tsx";
+import Testimonials from "./components/Testimonials.tsx";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <FirstCard />
       <SecondCard />
+      <Testimonials />
       <Four />
     </>
   );
