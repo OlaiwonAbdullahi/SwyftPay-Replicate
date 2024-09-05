@@ -8,8 +8,8 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="bg-white p-4 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50">
-      <div className="flex item-center justify-between">
+    <nav className="bg-white p-4 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 ">
+      <div className="flex item-center justify-between container">
         <div className="">
           <img src={logo} alt="logo" className="h-16 w-24"></img>
         </div>

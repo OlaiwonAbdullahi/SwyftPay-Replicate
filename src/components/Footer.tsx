@@ -40,6 +40,12 @@ export default function Footer() {
         <img src={Instagram} alt="" className="h-4 " />
         <img src={Facebook} alt="" className="h-4 " />
       </div>
+
+      <hr className="border-gray-400 mt-20"></hr>
+
+      <p className="text-left text-gray-500 mt-11 mb-24 font-inter">
+        © Swervpay LLC 2024.
+      </p>
     </div>
   );
 }
