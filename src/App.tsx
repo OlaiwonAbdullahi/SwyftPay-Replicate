@@ -1,4 +1,4 @@
-import Four from "./components/404.tsx";
+//import Four from "./components/404.tsx";
 import FirstCard from "./components/FirstCard.tsx";
 import Footer from "./components/Footer.tsx";
 import GetFiat from "./components/GetFiat.tsx";
