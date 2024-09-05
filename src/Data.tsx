@@ -1,17 +1,17 @@
 export const data = [
   {
     id: 1,
-    para: "It finally got swyft at this end Thank you@swyftpay_iofor making my X blue payment swift It is the way your Customer Service officer was available to ensure I get the issue resolved",
+    para: "It finally got swyft at this end Thank you @swyftpay_io for making my X blue payment swift It is the way your Customer Service officer was available to ensure I get the issue resolved",
     author: "@Ara2spicy",
   },
   {
     id: 2,
-    para: "We should not lie@swyftpay_iois just the best platform to get your dollar card, I've been trying to get one since forever, I just downloaded the app yesterday night and I still got my dollar card the same night, very very fast. I'm so so so happy RN Aliexpress here I come !!!!",
+    para: "We should not lie @swyftpay_io is just the best platform to get your dollar card, I've been trying to get one since forever, I just downloaded the app yesterday night and I still got my dollar card the same night, very very fast. I'm so so so happy RN Aliexpress here I come !!!!",
     author: "@mahyhour",
   },
   {
     id: 3,
-    para: "When@_Debbie_OAtalked about the swiftness of @swyftpay_io , I thought it was this normal online hype but mehn, their services are beyond what she said. In less than 10 seconds, my VISA virtual card was created. Upgrading of KYC as simple and snappy as ABC. The CEO rocks not hype",
+    para: "When @_Debbie_OA talked about the swiftness of @swyftpay_io , I thought it was this normal online hype but mehn, their services are beyond what she said. In less than 10 seconds, my VISA virtual card was created. Upgrading of KYC as simple and snappy as ABC. The CEO rocks not hype",
     author: "@andysuek",
   },
   {
