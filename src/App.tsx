@@ -16,7 +16,6 @@ function App() {
       <Testimonials />
       <GetFiat />
       <Footer />
-      <Four />
     </>
   );
 }
