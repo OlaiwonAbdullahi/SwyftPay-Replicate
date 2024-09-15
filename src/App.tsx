@@ -1,4 +1,5 @@
 //import Four from "./components/404.tsx";
+import FAQAccordion from "./components/Faq.tsx";
 import FirstCard from "./components/FirstCard.tsx";
 import Footer from "./components/Footer.tsx";
 import GetFiat from "./components/GetFiat.tsx";
@@ -15,6 +16,7 @@ function App() {
       <SecondCard />
       <Testimonials />
       <GetFiat />
+      <FAQAccordion />
       <Footer />
     </>
   );
